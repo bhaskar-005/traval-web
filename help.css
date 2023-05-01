@@ -1,0 +1,146 @@
+form {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* margin-left :300px;
+    margin-right: 300px;  */
+
+}
+
+.input-box {
+    margin-left: 300px;
+    margin-right: 300px;
+    overflow: hidden;
+    background-color: rgba(29, 76, 114, 0.659);
+    margin-top: 20px;
+    border-radius: 5px;
+
+
+}
+
+.name {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: aliceblue;
+}
+
+.email {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: aliceblue;
+}
+
+textarea {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(181, 216, 27);
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+
+}
+
+.button2 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color:greenyellow;
+    
+    
+}
+.button2 a{
+    color: rgb(17, 26, 40);
+    text-decoration: none;
+    
+}
+
+.button2:hover{
+    border-radius: 20px;
+    background-color:  rgb(181, 216, 27);
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+
+@media only screen and (max-width: 900px){
+    .input-box {
+        margin-left: 100px;
+        margin-right: 100px;
+    } 
+}
+
+@media only screen and (max-width: 500px){
+    .input-box {
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+    p{
+        font-size: 0.8rem;
+
+    }
+    h1{
+        font-size: 2.1rem;
+    }
+
+    .name {
+        border: none;
+        padding: 8px;
+        margin: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        color: black;
+        background-color: aliceblue;
+    }
+    
+    .email {
+        border: none;
+        padding: 8px;
+        margin: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        color: black;
+        background-color: aliceblue;
+    }
+    
+    textarea {
+        border: none;
+        padding: 8px;
+        margin: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        color: black;
+        background-color: aliceblue;
+    }
+
+}

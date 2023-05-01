@@ -1,0 +1,112 @@
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(181, 216, 27);
+    padding-left: 20px;
+   
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 229, 229);
+    margin: 30px;
+    gap: px;
+}
+.back-about{
+    
+  background-color: rgba(20, 61, 75, 0.818);
+    margin: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.back-aboutdark{
+    background-color: rgba(59, 186, 228, 0.818);
+  
+}
+.skills{
+    padding : 30px;
+    padding-top: 0;
+}
+
+.fa-html5{
+    color: #df702d;
+    font-size: 2.1rem;
+}
+.fa-css3-alt{
+    color: #2965f1;
+    font-size: 2.1rem;
+}
+.fa-js{
+    color: yellow;
+    font-size: 2.1rem;
+}
+.fa-bootstrap{
+    color: blueviolet;
+    font-size: 2.1rem;
+}
+.fa-react{
+    color: aqua;
+    font-size: 2.1rem;
+}
+@media only screen and (max-width: 900px){
+    .back-about{
+        background-color: rgba(20, 61, 75, 0.818);
+        margin: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+    } 
+}
+
+@media only screen and (max-width: 500px){
+    .back-about{
+        background-color: rgba(20, 61, 75, 0.818);
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+    h3{
+        font-family: 'Nunito', sans-serif;
+        color: rgb(181, 216, 27);
+       padding-left: 20px;
+       padding-bottom: 20px;
+       font-size: 1rem;
+    }
+    h2{
+        font-family: 'Nunito', sans-serif;
+        color: rgb(255, 255, 255);
+        margin: 20px;
+        font-size: 1.1rem;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(231, 229, 229);
+        margin: 30px;
+        font-size: 0.8rem;
+    }
+
+    .fa-html5{
+        color: #df702d;
+        font-size: 1.5rem;
+    }
+    .fa-css3-alt{
+        color: #2965f1;
+        font-size: 1.5rem;
+    }
+    .fa-js{
+        color: yellow;
+        font-size: 1.5rem;
+    }
+    .fa-bootstrap{
+        color: blueviolet;
+        font-size: 1.5rem;
+    }
+    .fa-react{
+        color: aqua;
+        font-size: 1.5rem;
+
+}
+}

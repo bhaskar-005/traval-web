@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+   background-color: rgb(5, 34, 43);
+   
+   
+   
+}
+.dark{
+    background-color: rgb(240, 250, 234);
+    color: rgb(1, 9, 12);
+    
+}
+/* css for logo */
+.icon{
+    display: flex;
+      margin-left: 30px;
+    
+}
+.iconpng{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+    float:left;
+    
+    
+}
+.icontext{
+    margin-top: 12px;
+    margin-left: 5px;
+    font-size: 1.4rem;
+    color: rgb(181, 216, 27);
+    font-family:'Bruno Ace SC', cursive;
+    font-weight: bold;
+}
+
+/* css for nav */
+nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(18, 61, 88);
+    display: flex;
+    justify-content: space-between
+    
+    
+}
+
+.fa-solid{
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right:30px ;
+    font-size: 1.8rem;
+}
+.fa-soliddark{
+    color: rgb(13, 28, 50);
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right:30px ;
+    font-size: 1.8rem;
+    transform: rotate(-180deg);
+  
+}
+/* ---------------<css for main>---------------- */
+.n1{
+    color: rgb(181, 216, 27);
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.7rem;
+    padding-left: 30px;
+    margin-bottom: 6px;
+}
+.n2{
+    color: rgb(226, 226, 226);
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    margin-top: 0px;
+    font-size: 1.8rem;
+}
+.n2dark{
+    color: rgb(23, 47, 83);
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    margin-top: 0px;
+    font-size: 1.8rem;
+}
+.pera{
+    color: rgb(232, 232, 232);
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    
+}
+.peradark{
+    color: rgb(21, 43, 75);
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.div-text{
+     max-width: 550px; 
+    align-items: center;
+     margin: 50px; 
+}
+.tr-img{
+    width: 620px;
+    height: 600px;
+    margin-top: 30px;
+    
+}
+
+  
+
+  
+.explore{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:1rem ;
+    border: none;
+    cursor: pointer;
+     color: rgb(255, 255, 255);
+    font-weight: 600;
+background-color: rgb(147, 176, 21);
+}
+.explore:hover{
+    background-color: rgb(222, 229, 189);
+   color:rgb(5, 34, 43); 
+   transition: 0.4s;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 40, 50);
+}
+
+/* css for the social links */
+.fa-brands{
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right:30px ;
+    font-size: 1.5rem;
+}
+.fa-brands:hover{
+transform: translateY(-9px);
+transition: 0.5s;
+}
+
+.fa-earth-americas{
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right:30px ;
+    font-size: 1.5rem;
+}
+.fa-earth-americas:hover{
+    transform: translateY(-9px);
+    transition: 0.5s;
+    }
+
+    .social{
+        margin: 0;
+        margin-left: 40px;
+    }
+
+.makername{
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nameb{
+    color: aliceblue;
+    text-decoration: none;
+}
+.make{
+    margin-right: 30px;
+}
+
+
+/* popup */
+.popup{
+    width: 600px;
+    position: absolute;
+    top: 0%;
+    right: 100%; 
+    background-color: rgba(18, 19, 19, 0.701);
+    transform: translate(-50%,-50%);
+   border-radius: 10px;
+    transition: 0.7s;
+}
+.popup1{
+    width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    background-color: rgba(19, 19, 19, 0.873);
+    transform: translate(-50%,-50%);
+   border-radius: 10px;
+  
+   
+}
+
+.popup1 ul{
+  list-style: none;
+  
+    
+}
+.popup1 li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+    color: aliceblue; 
+   
+}
+.popup1 a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.popup  a:hover{
+    color: yellowgreen;
+ 
+    transform: 0.9s;
+    
+}
+.popup li:hover{
+    transform: translateX(-19px);
+    transition: 0.5s;
+}
+@media only screen and (max-width: 500px) {
+    
+    nav{
+        position: sticky;
+        top: 0;
+        background-color: rgb(18, 61, 88);
+        display: flex;
+        justify-content: space-between
+        
+        
+    }
+    .fa-solid{
+        color: aliceblue;
+        cursor: pointer;
+        margin-top: 14px;
+        margin-right:30px ;
+        font-size: 1.8rem;
+    }
+    .fa-soliddark{
+        color: rgb(13, 28, 50);
+        cursor: pointer;
+        margin-top: 14px;
+        margin-right:30px ;
+        font-size: 1.8rem;
+        transform: rotate(-180deg);
+      
+    }
+    /* ---------------<css for main>---------------- */
+    .n1{
+        color: rgb(181, 216, 27);
+        font-family: 'Nunito', sans-serif;
+        font-size: 2.4rem;
+        padding-left: 0px;
+        margin-bottom: 6px;
+    }
+    .n2{
+        color: rgb(226, 226, 226);
+        font-family: 'Heebo', sans-serif;
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+    .n2dark{
+        color: rgb(23, 47, 83);
+        font-family: 'Heebo', sans-serif;
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+    .pera{
+        color: rgb(232, 232, 232);
+        font-family: 'Heebo', sans-serif;
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size:1rem;
+        
+    }
+    .peradark{
+        color: rgb(21, 43, 75);
+        font-family: 'Heebo', sans-serif;
+        padding-left: 10px;
+        margin-top: 0px;
+        font-size: 1rem;
+        
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .div-text{
+        max-width: auto; 
+       
+         margin: 30px; 
+    }
+    .tr-img{
+        width: 600px;
+        height: 600px;
+        margin-top: 30px;
+        display: none;
+    }
+   .icon{
+    margin-left: 5px;
+   }
+
+
+   .fa-solid{
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right:5px ;
+    font-size: 1.8rem;
+}
+.fa-soliddark{
+    color: rgb(13, 28, 50);
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right:17px ;
+    font-size: 1.8rem;
+    transform: rotate(-180deg);
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icontext{
+    font-size: 1rem ;
+}
+.fa-brands:hover{
+    transform: translateY(-9px);
+    transition: 0.5s;
+    }
+    
+    .fa-earth-americas{
+        color: aliceblue;
+        cursor: pointer;
+        margin-top: 14px;
+        margin-right:30px ;
+        font-size: 1.5rem;
+    }
+    .fa-earth-americas:hover{
+        transform: translateY(-9px);
+        transition: 0.5s;
+        }
+   .makername{
+    font-size: 0.8rem;
+   }
+
+    .make{
+        margin-left: 40px;
+    }
+    .popup1 li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6rem;
+        padding: 30px;
+        text-align: center;
+        color: aliceblue; 
+    }
+    .popup{
+        width: 600px;
+        position: absolute;
+        top: 0%;
+        right: 100%; 
+        background-color: rgba(18, 19, 19, 0.701);
+        transform: translate(-50%,-50%);
+       border-radius: 10px;
+        transition: 0.7s;
+    }
+    .popup1{
+        width: 300px;
+        position: fixed;
+        top: 50%;
+        left: 50%; 
+        background-color: rgba(19, 19, 19, 0.873);
+        transform: translate(-50%,-50%);
+       border-radius: 10px;
+      
+       
+    }
+    
+   
+}
+  
+
+
+
+@media only screen and (max-width: 883px){
+
+  .div-text{
+        max-width: auto; 
+       
+         margin: 30px; 
+    }
+    .tr-img{
+        width: 600px;
+        height: 600px;
+        margin-top: 30px;
+        display: none;
+    }
+}
